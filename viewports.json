@@ -1,0 +1,84 @@
+{
+  "#": "we steal the format used here and augment slightly: https://github.com/GoogleChrome/puppeteer/blob/master/lib/DeviceDescriptors.js",
+  "#": "the following devices are derived from the Q4'18 data published by DeviceAtlas about the most popular Android models: https://deviceatlas.com/blog/most-popular-android-smartphones",
+  "#": "we also include the most poular iOS models: https://deviceatlas.com/blog/most-popular-smartphones",
+  "#": "we include the most popular from each of the UK, US, Japan, India, Indonesia, Nigeria, Philippines, South Africa, Argentina, and Brazil",
+  "#": "device data is pulled from GSMArena's database",
+  "#": "...and as a final word, JSON is the _worst_",
+
+  "devices": [
+    {
+      "name": "Samsung Galaxy J5 Prime",
+      "short_name": "galaxy_j5",
+      "url": "https://www.gsmarena.com/samsung_galaxy_j5_prime-8342.php",
+      "viewport": {
+        "width": 360,
+        "height": 640,
+        "deviceScaleFactor": 2.0,
+        "isMobile": true,
+        "hasTouch": true
+      },
+      "popular_in": ["NE", "BR"]
+    },
+    {
+      "name": "Xiaomi Redmi Note 4",
+      "short_name": "redmi_note_4",
+      "url": "https://www.gsmarena.com/xiaomi_redmi_note_4-8531.php",
+      "viewport": {
+        "width": 360,
+        "height": 640,
+        "deviceScaleFactor": 3.0,
+        "isMobile": true,
+        "hasTouch": true
+      },
+      "popular_in": ["IN"]
+    },
+    {
+      "name": "Sony Xperia XZ1",
+      "short_name": "xperia_xz1",
+      "url": "https://www.gsmarena.com/sony_xperia_xz1-8804.php",
+      "viewport": {
+        "width": 360,
+        "height": 640,
+        "deviceScaleFactor": 3.0,
+        "isMobile": true,
+        "hasTouch": true
+      },
+      "popular_in": ["JP"]
+    },
+    {
+      "name": "Samsung Galaxy S8",
+      "short_name": "galaxy_s8",
+      "specs": "https://www.gsmarena.com/samsung_galaxy_s8-8161.php",
+      "viewport": {
+        "width": 360,
+        "height": 740,
+        "deviceScaleFactor": 4.0,
+        "isMobile": true,
+        "hasTouch": true
+      },
+      "popular_in": ["UK", "US", "ZA"]
+    },
+    {
+      "name": "Samsung Galaxy J2 Prime",
+      "short_name": "galaxy_j2",
+      "url": "https://www.gsmarena.com/samsung_galaxy_j2_prime-8424.php",
+      "viewport": {
+        "width": 540,
+        "height": 960,
+        "deviceScaleFactor": 1.0,
+        "isMobile": true,
+        "hasTouch": true
+      },
+      "popular_in": ["AR", "ID", "PH"]
+    },
+    {
+      "name": " iPhone 6, 7, & 8",
+      "short_name": "iphone_6_7_8",
+      "url": "https://www.gsmarena.com/apple_iphone_7-8064.php",
+      "#": "alias into authoritative Puppeteer devices list",
+      "alias": "iPhone 7",
+      "popular_in": ["US", "UK", "BR", "JP", "PH", "ZA", "NE"]
+    }
+  ]
+}

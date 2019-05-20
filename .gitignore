@@ -1,0 +1,9 @@
+.DS_Store
+.d8_history
+npm-debug.log
+.env
+package-lock.json
+test/*.log
+node_modules/*
+urls.json
+out/*

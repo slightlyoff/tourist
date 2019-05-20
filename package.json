@@ -1,0 +1,24 @@
+{
+  "name": "tourist",
+  "description": "",
+  "main": "index.js",
+  "author": "The Chromium Authors",
+  "repository": "github:slightlyoff/tourist",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=10.15.0"
+  },
+  "": {
+
+  },
+  "dependencies": {
+    "chalk": "2.4.1",
+    "cli-table": "0.3.1",
+    "commander": "^2.20.0",
+    "debug": "3.2.6",
+    "fs-extra": "7.0.1",
+    "js-beautify": "1.8.8",
+    "ora": "^3.4.0",
+    "puppeteer": "1.15.0"
+  }
+}
